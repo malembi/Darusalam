@@ -2063,36 +2063,36 @@ button[type=submit],.developer{
   width: 100%;
 }
 
-/* FACILITIES */
-.facilities {
+/* property-management */
+.property-management {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding: 135px 0;
 }
-.facilities b {
+.property-management b {
   display: block;
   font-size: 30px;
   font-weight: 800;
   opacity: 0.2;
 }
-.facilities h4 {
+.property-management h4 {
   display: block;
   font-size: 30px;
   font-family: "Playfair Display", serif;
   margin-bottom: 15px;
 }
-.facilities h4 span {
+.property-management h4 span {
   color: #9f8054;
 }
-.facilities small {
+.property-management small {
   display: block;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 40px;
   opacity: 0.5;
 }
-.facilities small:after {
+.property-management small:after {
   content: "";
   width: 50px;
   height: 1px;
@@ -2102,26 +2102,26 @@ button[type=submit],.developer{
   margin-bottom: 4px;
   opacity: 0.5;
 }
-.facilities figure {
+.property-management figure {
   width: 100%;
   float: left;
   margin: 15px 0;
   padding: 50px 30px;
   box-shadow: 0 0 20px rgba(235, 207, 167, 0.4);
 }
-.facilities figure img {
+.property-management figure img {
   height: 70px;
   float: left;
 }
-.facilities figure figcaption {
+.property-management figure figcaption {
   width: calc(100% - 90px);
   float: right;
 }
-.facilities figure figcaption h5 {
+.property-management figure figcaption h5 {
   font-weight: 100;
   font-size: 16px;
 }
-.facilities figure figcaption p {
+.property-management figure figcaption p {
   font-size: 14px;
   opacity: 0.5;
   margin: 0;
@@ -2161,14 +2161,14 @@ button[type=submit],.developer{
 }
 
 /* SALES OFFICES */
-.sales-offices {
+.house-units {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 135px 0;
 }
-.sales-offices .office-box {
+.house-units .office-box {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -2177,15 +2177,15 @@ button[type=submit],.developer{
   margin: 15px 0;
   border: 1px solid #eee;
 }
-.sales-offices .office-box h5 {
+.house-units .office-box h5 {
   font-family: "Playfair Display", serif;
   margin-bottom: 20px;
   font-size: 26px;
 }
-.sales-offices .office-box address {
+.house-units .office-box address {
   margin-bottom: 25px;
 }
-.sales-offices .office-box a {
+.house-units .office-box a {
   height: 44px;
   line-height: 44px;
   display: inline-block;
@@ -2195,10 +2195,10 @@ button[type=submit],.developer{
   font-weight: 100;
   color: #fff;
 }
-.sales-offices .office-box a i {
+.house-units .office-box a i {
   margin-right: 7px;
 }
-.sales-offices .office-box a:hover {
+.house-units .office-box a:hover {
   text-decoration: none;
 }
 
@@ -3144,7 +3144,7 @@ button[type=submit],.developer{
     padding: 80px 0;
   }
 
-  .sales-offices {
+  .house-units {
     padding: 80px 0;
   }
 
@@ -3187,7 +3187,7 @@ button[type=submit],.developer{
     width: 100%;
   }
 
-  .facilities {
+  .property-management {
     padding: 80px 0;
   }
 

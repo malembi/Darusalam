@@ -509,8 +509,8 @@ button[type="submit"]{ height: 54px; border: none; background: $color-brown; col
 		img{width: 100%;}}}
 
 
-/* FACILITIES */
-.facilities{width: 100%; display: flex; flex-wrap: wrap; padding: 135px 0;
+/* property-management */
+.property-management{width: 100%; display: flex; flex-wrap: wrap; padding: 135px 0;
 	b{display: block; font-size: 30px; font-weight: 800; opacity: 0.2;}
 		h4{ display: block; font-size: 30px; @include second-font; margin-bottom: 15px;
 			span{color:$color-brown;}}
@@ -533,7 +533,7 @@ button[type="submit"]{ height: 54px; border: none; background: $color-brown; col
 
 
 /* SALES OFFICES */
-.sales-offices{width: 100%; display: flex; flex-wrap: wrap; padding: 135px 0;
+.house-units{width: 100%; display: flex; flex-wrap: wrap; padding: 135px 0;
 	.office-box{width: 100%; display: flex; flex-wrap: wrap; padding: 30px; margin: 15px 0; border: 1px solid #eee;
 		h5{ @include second-font; margin-bottom: 20px; font-size: 26px;}
 		address{ margin-bottom: 25px;}
@@ -757,7 +757,7 @@ button[type="submit"]{ height: 54px; border: none; background: $color-brown; col
 	.intro .content-box{padding-left: 0;}
 	.logos figure img{padding: 0 10%;}
 	.about-content{padding: 80px 0;}
-	.sales-offices{padding: 80px 0;}
+	.house-units{padding: 80px 0;}
 	.press-relases{padding: 80px 0;}
 	.photo-gallery{padding: 80px 0;}
 	.photo-gallery .gallery li{width: 33.33333%;}
@@ -767,7 +767,7 @@ button[type="submit"]{ height: 54px; border: none; background: $color-brown; col
 	.apartment .property-infos{width: 100%; margin-right: 0;}
 	.apartment .property-plan{margin: 50px 0;}
 	.apartment .gallery-slider{width: 100%;}
-	.facilities{padding: 80px 0;}
+	.property-management{padding: 80px 0;}
 	.blog .sidebar{width: 100%; margin-left: 0; padding-left: 0; border-left: none;}
 	.sales-team{padding: 80px 0;}
 	.sales-team figure figcaption{width: 50%;}
