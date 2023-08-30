@@ -9,19 +9,19 @@ require 'vendor/autoload.php';
 
 // Instantiation and passing `true` enables exceptions
 
-$mail = new PHPMailer(true);
+$mail = new PHPMailer();
 
 try {
     //Server settings
     //$mail->SMTPDebug = 2; 
                                         // Enable verbose debug output
     $mail->isSMTP();                                            // Set mailer to use SMTP
-    $mail->Host       = 'smtp.mail.yahoo.com';  			// Specify main and backup SMTP servers
+    $mail->Host       = 'mail.darusalamproperties.com';  			// Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
     $mail->Username   = 'info@darusalamproperties.com';                     // SMTP username
     $mail->Password   = 'Darusalam@123';                               // SMTP password
     $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-    $mail->Port       = 465;                                    // TCP port to connect to
+    $mail->Port       = 587;                                    // TCP port to connect to
 
     //Recipients
     $mail->setFrom('samirmaleymbi@yahoo.com');
