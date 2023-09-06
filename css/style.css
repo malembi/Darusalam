@@ -121,6 +121,7 @@ button[type=submit],.developer{
   text-transform: uppercase;
 }
 
+
 /* ODOMETER */
 .odometer {
   line-height: 1;
@@ -1844,7 +1845,7 @@ button[type=submit],.developer{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 150px 0;
+  padding: 50px 0;
 }
 .apartment h2 {
   font-size: 4vw;
@@ -1857,7 +1858,7 @@ button[type=submit],.developer{
 .apartment h6 {
   margin-bottom: 15px;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 17px;
 }
 .apartment h5 {
   margin-bottom: 70px;
@@ -2805,6 +2806,7 @@ button[type=submit],.developer{
 }
 .contact .contact-form #contact {
   display: block;
+  padding: 40px;
 }
 .contact .contact-form #contact .form-group {
   display: block;
