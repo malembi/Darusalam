@@ -3369,7 +3369,9 @@ button[type=submit],.developer{
   .side-navigation {
     width: 80vw;
   }
-
+.vid {
+  margin: 150px 0 0 -100px;
+}
   .page-header .container h1 {
     font-size: 10vw;
   }
